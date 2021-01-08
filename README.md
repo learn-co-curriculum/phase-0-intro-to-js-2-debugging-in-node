@@ -1,7 +1,5 @@
 # Debugging in Node
 
-**REDO SCREENSHOTS**
-
 ## Learning Goals
 
 * Use the Node.js debugger
