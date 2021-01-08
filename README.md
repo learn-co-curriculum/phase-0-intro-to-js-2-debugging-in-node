@@ -114,6 +114,10 @@ review, the process is as follows:
 * Continue stepping through the code using `cont`
 * Run `.exit` or type `ctrl-C` twice to exit the debugger
 
+Debugging tools will get more and more useful to you as you progress through the
+curriculum and your programs get more complex. The time you spend now getting
+comfortable with debugging will pay off in the long run.
+
 We will get more practice using the debugger in an upcoming lesson.
 
 ## Resources
