@@ -18,7 +18,7 @@ our JavaScript outside the browser) includes a similar debugging tool. In this
 lesson, we will walk through how to use the [Node.js debugger][node-debugger].
 
 Fork and clone this lesson into your local environment. To do this, click
-the GitHub "octocat" button at the top of this page to open the lesson's
+the GitHub "octocat" button at the top of the page to open the lesson's
 GitHub repo, then click "Fork." Once you've cloned it down to your machine,
 navigate into the lesson's directory in the terminal, then run `code .` to
 open the files in Visual Studio Code. There are no tests so you do not need
