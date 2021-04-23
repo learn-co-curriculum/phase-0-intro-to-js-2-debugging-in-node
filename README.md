@@ -97,7 +97,7 @@ exit and restart it. If you're in the REPL, type `ctrl-C` to exit that, then
 type `.exit` at the `debug` prompt or `ctrl-C` twice to exit the debugger.
 Finally, run `node inspect index.js` to relaunch the debugger.
 
-Now if you run `cont`, the code will beginning executing and will pause at the
+Now if you run `cont`, the code will begin executing and will pause at the
 first breakpoint. To continue executing the code and advance to the second
 breakpoint, simply enter `cont` again. At any point, you can enter the
 debugger's REPL to check the value of `count`, then exit the REPL and continue
