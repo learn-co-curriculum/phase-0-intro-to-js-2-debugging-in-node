@@ -71,7 +71,7 @@ Then to continue executing the code, we first need to exit the REPL by typing
 
 Note that our logged message shows at the top of the screenshot above. When we
 ran `cont`, the execution of the code resumed so the `console.log()` was run,
-the `count` variable was incremented, and the execution contined to the next
+the `count` variable was incremented, and the execution continued to the next
 loop. If you enter the REPL and check the value of `count`, you will see that
 it's now equal to `2`.
 
