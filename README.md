@@ -21,8 +21,7 @@ Fork and clone this lesson into your local environment. To do this, click
 the GitHub "octocat" button at the top of the page to open the lesson's
 GitHub repo, then click "Fork." Once you've cloned it down to your machine,
 navigate into the lesson's directory in the terminal, then run `code .` to
-open the files in Visual Studio Code. There are no tests so you do not need
-to run `npm install`.
+open the files in Visual Studio Code.
 
 ## The Node.js Debugger
 
@@ -65,7 +64,7 @@ variable:
 ![enter repl](https://curriculum-content.s3.amazonaws.com/phase-0/debugging-in-node/enter-repl.png)
 
 Then to continue executing the code, we first need to exit the REPL by typing
-`Ctrl-C`, then run `cont` at the `debug` prompt:
+`Ctrl-c`, then run `cont` at the `debug` prompt:
 
 ![second loop](https://curriculum-content.s3.amazonaws.com/phase-0/debugging-in-node/second-loop.png)
 
@@ -93,8 +92,8 @@ while (count < 5) {
 ```
 
 In order for the debugger to recognize the change to our code, we'll need to
-exit and restart it. If you're in the REPL, type `ctrl-C` to exit that, then
-type `.exit` at the `debug` prompt or `ctrl-C` twice to exit the debugger.
+exit and restart it. If you're in the REPL, type `ctrl-c` to exit that, then
+type `.exit` at the `debug` prompt or `ctrl-c` twice to exit the debugger.
 Finally, run `node inspect index.js` to relaunch the debugger.
 
 Now if you run `cont`, the code will begin executing and will pause at the
@@ -114,9 +113,9 @@ review, the process is as follows:
   the first breakpoint
 * Run `repl` at the `debug` prompt to enter the debugger's REPL
 * Check the value of any variables by entering the variable name at the `>` prompt
-* Exit the REPL using `ctrl-C`
+* Exit the REPL using `ctrl-c`
 * Continue stepping through the code using `cont`
-* Run `.exit` or type `ctrl-C` twice to exit the debugger
+* Run `.exit` or type `ctrl-c` twice to exit the debugger
 
 Debugging tools will get more and more useful to you as you progress through the
 curriculum and your programs get more complex. The time you spend now getting
